@@ -14,7 +14,7 @@ remotes::install_github("Byronxy/SCEM")
 
 ## Example
 
-Input: Gene expression matrix or DNA methylation matrix
+Input: Gene expression matrix (Row: Symbal ID, Column: Sample ID) or DNA methylation matrix (Row: Probe ID, Column: Sample ID)
 
 ``` r
 library(SCEM)
